@@ -1,0 +1,15 @@
+.main{
+    margin-top: 0px;
+    height: 600px;
+    background-color: rgb(56, 48, 168);
+}
+.main1{
+    height: 500px;
+    width: 600px;
+    margin-left: 300px;
+    background-color: rgb(0, 4, 5);
+    align-content: center;
+}
+.text1{
+    padding-left: 550px;
+}
