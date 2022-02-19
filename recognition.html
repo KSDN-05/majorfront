@@ -5,25 +5,39 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1">
     <link href="recognition.css" type="text/css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
 
 <body>
-    <div class="drag-area">
+  
+    
+      <div class="drag-area">
+
         <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
         <header>Drag & Drop to Upload File</header>
         <span>OR</span>
         <button>Browse File</button>
         <input type="file" hidden>
       </div>
-      <div class="text">
-      <label for="extracted-text">Extracted Text</label>
-      <textarea name="text" id="text" cols="30" rows="10"></textarea>
+    
+      
+      <div class='textlabel'>
+      <label for="Extract">Extracted Text:</label>
       </div>
+    <div class="textextract">
+      
+      <textarea></textarea>
+      
+    </div>
+    <div id="notification">Text Copied!</div>
+ <!-- <div class="button"> -->
+    <button class="copytext">copy text</button>
+  <!-- </div> -->
+
+  <script src="recognition.js"></script> 
 
 </body>
-<script src="recognition.js">
 
-</script>
 
 </html>
